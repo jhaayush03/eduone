@@ -110,7 +110,7 @@ function Home() {
       {/* Hero Section - Main banner area */}
       <section ref={heroRef} className="hero">
         <div className="hero-background">
-          <img src="./banner.avif" alt="Hero Background" className="hero-bg-image" />
+          <img src="./engbanner.png" alt="Hero Background" className="hero-bg-image" />
           <div className="hero-overlay"></div>
         </div>
         <div className="hero-container">
@@ -297,3 +297,4 @@ function Home() {
 // Export the Home component so it can be used in other files
 
 export default Home; 
+
